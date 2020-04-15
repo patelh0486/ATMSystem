@@ -14,21 +14,21 @@ namespace ATMConsoleApp
             accounts[0] = new Account(98765, 56789, 200.00M, 200.00M);
         }
 
-        private static readonly List<Account> _database = new List<Account>()
+        private static  List<Account> _database = new List<Account>()
         {
-            new Account(12345,54321,2000.00m,3200.00m),
-            new Account(98765,56789,1000.00m,1000.00m),
+            new Account(12345, 5432, 2000.00m, 3200.00m),
+            new Account(98765, 5678, 1000.00m, 1000.00m),
         };
         private Account GetAccount(int accountNumber)
         {
-            foreach( Account currentAccountNumber in accounts)
+            foreach( Account currentAccount in _database)
             {
-                if(currentAccountNumber.AccountNumber == accountNumber)
+                if(currentAccount.AccountNumber == accountNumber)
                 {
-                    return currentAccountNumber;
+                    return currentAccount;
                 }
             }
-            return null;
+           return null;
         }
         
         public bool AuthenticateUser(int userAccountNumber, int userPin)

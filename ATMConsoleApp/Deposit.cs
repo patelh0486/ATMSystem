@@ -6,13 +6,11 @@ namespace ATMConsoleApp
 {
     class Deposit: Transaction
     {
-        private int accountNumber;
+        
         private decimal amount;
-
-        private Screen screen;
         private Keypad keypad;
         private DepositSlot depositSlot;
-        private BankDatabase bankDataBase;
+      
 
         private const int CANCELED = 0;
         public Deposit(int UseraccountNumber, Screen Atmscreen, BankDatabase AtmbankDataBase, Keypad Atmkeypad, DepositSlot AtmdepositSlot) :
@@ -38,8 +36,8 @@ namespace ATMConsoleApp
                 if (envelopeReceived)
                 {
                     UserScreen.DisplayMessageLine("\n Your envelope has been received. \n" +
-                        " The money just deposited will not be available until we verified the ");
-                    Database.Debit(accountNumber, amount);
+                        " The money just deposited will not be available until we verify it. ");
+                    Database.Credit(AccountNumber, amount);
                 }
                 else
                 {

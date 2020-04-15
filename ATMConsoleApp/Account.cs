@@ -19,9 +19,19 @@ namespace ATMConsoleApp
             totalBalance = ThetotalBalance;
         }
 
-        public int AccountNumber { get => accountNumber; }        
-        public decimal AvailableBalance { get => availableBalance; }
-        public decimal TotalBalance { get => totalBalance; }
+        public int AccountNumber
+        {
+            get { return accountNumber; }
+        }
+        public decimal AvailableBalance {
+            get { return availableBalance; }
+        }
+        public decimal TotalBalance {
+            get
+            {
+                return totalBalance;
+            }
+        }
 
         public bool ValidatePIN(int userPIN)
         {

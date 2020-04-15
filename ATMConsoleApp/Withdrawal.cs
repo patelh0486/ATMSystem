@@ -6,13 +6,11 @@ namespace ATMConsoleApp
 {
    public class Withdrawal: Transaction
     {
-        private int accountNumber;
+       
         private decimal amount;
-
-        private Screen screen;
         private Keypad keypad;
         private CashDispenser cashDispenser;
-        private BankDatabase bankDataBase;
+       
 
         private const int CANCELED = 6;
         public Withdrawal(int UseraccountNumber, Screen Atmscreen, BankDatabase AtmbankDataBase, Keypad Atmkeypad, CashDispenser AtmcashDispenser) :
@@ -35,12 +33,12 @@ namespace ATMConsoleApp
                 if (selection != CANCELED)
                 {
                     amount = selection;
-                    decimal availableBalance = Database.GetAvailableBalance(accountNumber);
+                    decimal availableBalance = Database.GetAvailableBalance(AccountNumber);
                     if (amount <= availableBalance)
                     {
                         if (cashDispenser.InsufficientCashAvailable(amount))
                         {
-                            Database.Debit(accountNumber, amount);
+                            Database.Debit(AccountNumber, amount);
                             cashDispenser.DispenseCash(amount);
                             cashDispensed = true;
                             UserScreen.DisplayMessageLine("\n Please take your cash from the cashdispenser");

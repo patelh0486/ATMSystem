@@ -2,6 +2,7 @@
 using static System.Console;
 using System.Collections.Generic;
 using System.Text;
+using System.Globalization;
 
 namespace ATMConsoleApp
 {
@@ -19,7 +20,8 @@ namespace ATMConsoleApp
 
         public void DisplayDollarAmount(decimal amount)
         {
-            Write("{0:C}" + amount);
+
+            Write(String.Format("{0:C}", amount));
         }
     }
 }

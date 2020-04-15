@@ -53,9 +53,9 @@ namespace ATMConsoleApp
 
         private void AuthenticateUser()
         {
-            screen.DisplayMessage("\n Please enter your account number: ");
+            screen.DisplayMessage("\nPlease enter your account number: ");
            int accountNumber =  keypad.GetInput();
-            screen.DisplayMessage("\nEenter PIN: ");
+            screen.DisplayMessage("\nEnter PIN: ");
             int pin = keypad.GetInput();
 
             userAuthenticate = bankDataBase.AuthenticateUser(accountNumber, pin);
@@ -85,7 +85,8 @@ namespace ATMConsoleApp
                         currentTransaction.Execute();
                         break;
                     case MenuOption.EXIT_ATM:
-                        screen.DisplayMessageLine("\n You are exiting the system");
+                        userExited = true;
+                        screen.DisplayMessageLine("\n You are exiting the system");                        
                         break;
                     default: screen.DisplayMessageLine("\n You did not select valid option. Try again ");
                         break;
