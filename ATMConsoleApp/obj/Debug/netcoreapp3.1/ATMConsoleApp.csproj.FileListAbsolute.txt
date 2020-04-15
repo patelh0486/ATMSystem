@@ -1,0 +1,13 @@
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\bin\Debug\netcoreapp3.1\ATMConsoleApp.exe
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\bin\Debug\netcoreapp3.1\ATMConsoleApp.deps.json
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\bin\Debug\netcoreapp3.1\ATMConsoleApp.runtimeconfig.json
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\bin\Debug\netcoreapp3.1\ATMConsoleApp.runtimeconfig.dev.json
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\bin\Debug\netcoreapp3.1\ATMConsoleApp.dll
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\bin\Debug\netcoreapp3.1\ATMConsoleApp.pdb
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\obj\Debug\netcoreapp3.1\ATMConsoleApp.csprojAssemblyReference.cache
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\obj\Debug\netcoreapp3.1\ATMConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\obj\Debug\netcoreapp3.1\ATMConsoleApp.AssemblyInfoInputs.cache
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\obj\Debug\netcoreapp3.1\ATMConsoleApp.AssemblyInfo.cs
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\obj\Debug\netcoreapp3.1\ATMConsoleApp.dll
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\obj\Debug\netcoreapp3.1\ATMConsoleApp.pdb
+C:\Users\hinal\source\repos\patelh0486\ATMSystem\ATMConsoleApp\obj\Debug\netcoreapp3.1\ATMConsoleApp.genruntimeconfig.cache
